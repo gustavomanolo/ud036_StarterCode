@@ -1,6 +1,7 @@
 
 class Movie():
-    """This class provides a way to create instances of type 'Movie' with the following properties:
+    """This class provides a way to create instances of type 'Movie' with the
+    following properties:
 
     Attributes:
         title: The title of the movie
