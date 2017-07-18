@@ -93,6 +93,9 @@ main_page_content = '''
     <div class="modal" id="trailer">
       <div class="modal-dialog">
         <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Movie trailer</h4>
+          </div>
           <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
             <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
           </a>
@@ -107,7 +110,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">gustavomanolo's top 5 movies</a>
           </div>
         </div>
       </div>
@@ -115,6 +118,11 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Made with love by <a href="https://twitter.com/gustavomanolo" target="_blank">gustavomanolo</a>.</p>
+      </div>
+    </footer>
   </body>
 </html>
 '''
